@@ -1,0 +1,41 @@
+Day 2 成果清單
+
+Docker 化 FastAPI 專案
+
+寫好 Dockerfile
+
+build 成 image → run container
+
+解決服務啟動問題
+
+Pydantic v2 BaseSettings 移動問題
+
+缺少 pydantic-settings 套件 → 安裝並重新 build
+
+測試 container 內外的 endpoint
+
+/health endpoint 成功回應
+
+curl / PowerShell iwr 測試可行
+
+Debug 與面試亮點
+
+查看 docker logs 找 crash 原因
+
+container Up 但 uvicorn crash 的情況
+
+說明如何重建 image、更新依賴
+
+💡 總結：
+
+你現在已經具備 Cloud Native AI 開發 Day 2 核心能力：
+
+可以將本地 Python / FastAPI 專案打包成 Docker，解決依賴與啟動問題，並確認服務正常運行。
+
+下一步可以進入 Day 3：
+
+進行 Cloud Native AI 應用開發
+
+實作一些簡單 endpoint 與 AI 模型 inference
+
+建立 CI/CD 或熱 reload 開發流程

@@ -6,7 +6,7 @@ app = FastAPI(title=settings.app_name)
 
 app.include_router(health_router)
 
-@app.get("/")
+@app.get("/health")
 async def root():
     return {
         "service": settings.app_name,
